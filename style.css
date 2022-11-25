@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --ytRed:#FF0000;
+    --ytDark: #171717;
+    --ytWhite:	#f1f1f1;
+    --ytGrey:hsl(0, 0%, 18.82%);
+}
+body{
+    color: var(--ytWhite);
+    background-color: var(--ytDark);
+    font-family: Roboto;
+}
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+}
+.nav-sec{
+    width: 100%;
+    height:50px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+}
+.yt-logo-sec h1{
+    font-weight: 800
+    ;
+}
+.yt-logo-sec img{
+    height: 35px;
+    margin-left: 20px;
+}
+.yt-logo-sec i{
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+.srch-sec i{
+    font-size: 1.2rem;
+}
+.srch-box{
+    width: 700px;
+    height: 50px;
+    background: none;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 1px solid var(--ytGrey);
+}
+.srch-box input{
+    color: var(--ytDark);
+    width: 90%;
+    background: none;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+}
+.srch-box input::placeholder{
+    color: grey;
+    font-size: 1.1rem;
+}
+.srch-icon{
+
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--ytGrey);
+}
+.profile-logo-sec{
+    width: 250px;
+    display: flex;
+    justify-content: flex-end;
+}
+.profile-logo-sec i{
+    font-size: 1.4rem;
+    margin-left: 40px;
+}
+.profile-icon{
+    width: 35px;
+    height: 35px;
+    background-color: var(--ytGrey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: 40px;
+}
+.profile-icon i{
+    margin-left: 0px;
+    font-size: 1.8rem;
+}
+.body-sec{
+    width: 100%;
+    display: flex;
+}
+.side-bar{
+    flex: 15%;
+}
+.body-container{
+    flex: 85%;
+    background-color: white;
+}
+.side-bar-conatiner{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding-top: 20px;
+}
+.side-bar-item{
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .1s;
+
+}
+.side-bar-item:hover{
+    background-color: var(--ytGrey);
+}
+.side-bar-item span{
+    margin-left: 30px;
+}
+.side-bar-item-icon{
+    font-size: 1.5rem;
+}
+.side-bar-divider{
+    background-color: var(--ytGrey);
+    height: 1px;
+    margin: 10px 0px;
+}

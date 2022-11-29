@@ -15,9 +15,8 @@
     <div class="main">
       <section class="nav-sec">
         <div class="yt-logo-sec nav-item">
-          <i class="ri-menu-line"></i>
+          <i class="ri-menu-line" id="sideBarBtn"></i>
           <img src="./youtube.png" alt="" />
-          <h1>YouTube</h1>
         </div>
         <div class="srch-sec nav-item">
           <div class="srch-box">
@@ -37,7 +36,7 @@
         </div>
       </section>
       <section class="body-sec">
-        <div class="side-bar">
+        <div class="side-bar" id="sideBar">
           <div class="side-bar-conatiner">
             <div class="side-bar-item">
               <div class="side-bar-item-icon">
@@ -91,12 +90,248 @@
             <!-- <div class="side-bar-divider"></div> -->
           </div>
         </div>
-        <div class="body-container">
+        <div class="body-container" id="bodyContainer">
             <div class="home-menu">
-                
+                <div class="home-menu-item">All</div>
+                <div class="home-menu-item">Live</div>
+                <div class="home-menu-item">Gaming</div>
+                <div class="home-menu-item">Music</div>
+                <div class="home-menu-item">Laughter</div>
+                <div class="home-menu-item">Sports</div>
+                <div class="home-menu-item">Cricket</div>
+                <div class="home-menu-item">Football</div>
+            </div>
+            <div class="videos">
+                <div class="videos-card-row">
+                    
+                    <div class="video-card">
+                        <div class="video-thumbnail" style="background-image: url(https://i.ytimg.com/vi/W0_DPi0PmF0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDepmJZOyGUh6WwO1ifdkgyblYyNQ)">
+                        </div>
+                        <div class="card-description">
+                            <div class="channel-icon">
+                                <img src="https://yt3.ggpht.com/qxTWYGqUTd3GCjPHHRyTU8lKKnXMhv3D0LFpF4CpJmVteHutKVjTt7ZCj6_fHiA2pWFUx6t68w=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            </div>
+                            <div class="video-details">
+                                <div class="video-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quia inventore blanditi</div>
+                                <div class="channel-desc">
+                                    <div class="channel-name">White Tybur</div>
+                                    <div class="video-time-details">
+                                        30k views . 15 hours ago
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-card">
+                      <div class="video-thumbnail" style="background-image: url(https://i.ytimg.com/vi/UwsrzCVZAb8/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBJz3cKNjVbgfM4fU_EldwmqLtFeA)">
+                      </div>
+                      <div class="card-description">
+                          <div class="channel-icon">
+                              <img src="https://yt3.ggpht.com/qxTWYGqUTd3GCjPHHRyTU8lKKnXMhv3D0LFpF4CpJmVteHutKVjTt7ZCj6_fHiA2pWFUx6t68w=s68-c-k-c0x00ffffff-no-rj" alt="">
+                          </div>
+                          <div class="video-details">
+                              <div class="video-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quia inventore blanditi</div>
+                              <div class="channel-desc">
+                                  <div class="channel-name">White Tybur</div>
+                                  <div class="video-time-details">
+                                      30k views . 15 hours ago
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                    <div class="video-card">
+                        <div class="video-thumbnail" style="background-image: url(https://i.ytimg.com/vi/UXHoWNfjJYM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBlUZ4bo1OX5KMI9QYaIa-5qqJveg)">
+                        </div>
+                        <div class="card-description">
+                            <div class="channel-icon">
+                                <img src="https://yt3.ggpht.com/qxTWYGqUTd3GCjPHHRyTU8lKKnXMhv3D0LFpF4CpJmVteHutKVjTt7ZCj6_fHiA2pWFUx6t68w=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            </div>
+                            <div class="video-details">
+                                <div class="video-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quia inventore blanditi</div>
+                                <div class="channel-desc">
+                                    <div class="channel-name">White Tybur</div>
+                                    <div class="video-time-details">
+                                        30k views . 15 hours ago
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-card">
+                        <div class="video-thumbnail" style="background-image: url(https://i.ytimg.com/vi/dUhvvoVtpVE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDfrDAoVcOq8SG68irNN-tJKHLQnw)">
+                        </div>
+                        <div class="card-description">
+                            <div class="channel-icon">
+                                <img src="https://yt3.ggpht.com/qxTWYGqUTd3GCjPHHRyTU8lKKnXMhv3D0LFpF4CpJmVteHutKVjTt7ZCj6_fHiA2pWFUx6t68w=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            </div>
+                            <div class="video-details">
+                                <div class="video-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quia inventore blanditi</div>
+                                <div class="channel-desc">
+                                    <div class="channel-name">White Tybur</div>
+                                    <div class="video-time-details">
+                                        30k views . 15 hours ago
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="videos-card-row">
+                    <div class="video-card">
+                        <div class="video-thumbnail" style="background-image: url(https://i.ytimg.com/vi/y3RIHnK0_NE/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCddTXlPkrxS4pzyOUvcI6aDaSHmg)">
+                        </div>
+                        <div class="card-description">
+                            <div class="channel-icon">
+                                <img src="https://yt3.ggpht.com/qxTWYGqUTd3GCjPHHRyTU8lKKnXMhv3D0LFpF4CpJmVteHutKVjTt7ZCj6_fHiA2pWFUx6t68w=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            </div>
+                            <div class="video-details">
+                                <div class="video-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quia inventore blanditi</div>
+                                <div class="channel-desc">
+                                    <div class="channel-name">White Tybur</div>
+                                    <div class="video-time-details">
+                                        30k views . 15 hours ago
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-card">
+                      <div class="video-thumbnail" style="background-image: url(https://i.ytimg.com/vi/w_sxuDMt_V0/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCReaH4TDk2X2Hck6JqJ5yfk8cngg)">
+                      </div>
+                      <div class="card-description">
+                          <div class="channel-icon">
+                              <img src="https://yt3.ggpht.com/qxTWYGqUTd3GCjPHHRyTU8lKKnXMhv3D0LFpF4CpJmVteHutKVjTt7ZCj6_fHiA2pWFUx6t68w=s68-c-k-c0x00ffffff-no-rj" alt="">
+                          </div>
+                          <div class="video-details">
+                              <div class="video-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quia inventore blanditi</div>
+                              <div class="channel-desc">
+                                  <div class="channel-name">White Tybur</div>
+                                  <div class="video-time-details">
+                                      30k views . 15 hours ago
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                    
+                    <div class="video-card">
+                        <div class="video-thumbnail" style="background-image: url(https://i.ytimg.com/vi/PF36t9BWmmQ/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLB7CRN6LfCEY2T8xlzxfSDtM3TcJQ)">
+                        </div>
+                        <div class="card-description">
+                            <div class="channel-icon">
+                                <img src="https://yt3.ggpht.com/qxTWYGqUTd3GCjPHHRyTU8lKKnXMhv3D0LFpF4CpJmVteHutKVjTt7ZCj6_fHiA2pWFUx6t68w=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            </div>
+                            <div class="video-details">
+                                <div class="video-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quia inventore blanditi</div>
+                                <div class="channel-desc">
+                                    <div class="channel-name">White Tybur</div>
+                                    <div class="video-time-details">
+                                        30k views . 15 hours ago
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-card">
+                      <div class="video-thumbnail" style="background-image: url(https://i.ytimg.com/vi/QQ4XPWRctYo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDrRWdG2U1piuTNTe3MQNzDPuC-7g)">
+                      </div>
+                      <div class="card-description">
+                          <div class="channel-icon">
+                              <img src="https://yt3.ggpht.com/qxTWYGqUTd3GCjPHHRyTU8lKKnXMhv3D0LFpF4CpJmVteHutKVjTt7ZCj6_fHiA2pWFUx6t68w=s68-c-k-c0x00ffffff-no-rj" alt="">
+                          </div>
+                          <div class="video-details">
+                              <div class="video-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quia inventore blanditi</div>
+                              <div class="channel-desc">
+                                  <div class="channel-name">White Tybur</div>
+                                  <div class="video-time-details">
+                                      30k views . 15 hours ago
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                    
+                </div>
+                <div class="videos-card-row">
+                    <div class="video-card">
+                        <div class="video-thumbnail" style="background-image: url(https://i.ytimg.com/vi/wTbrk0suwbg/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCe3bPCE49VeLcsyVBD7P243Jh-4Q)">
+                        </div>
+                        <div class="card-description">
+                            <div class="channel-icon">
+                                <img src="https://yt3.ggpht.com/qxTWYGqUTd3GCjPHHRyTU8lKKnXMhv3D0LFpF4CpJmVteHutKVjTt7ZCj6_fHiA2pWFUx6t68w=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            </div>
+                            <div class="video-details">
+                                <div class="video-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quia inventore blanditi</div>
+                                <div class="channel-desc">
+                                    <div class="channel-name">White Tybur</div>
+                                    <div class="video-time-details">
+                                        30k views . 15 hours ago
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-card">
+                        <div class="video-thumbnail" style="background-image: url(https://i.ytimg.com/vi/s0dMTAQM4cw/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLADO4eLLsuU__Q0PkvQh3i_D0_iBA)">
+                        </div>
+                        <div class="card-description">
+                            <div class="channel-icon">
+                                <img src="https://yt3.ggpht.com/qxTWYGqUTd3GCjPHHRyTU8lKKnXMhv3D0LFpF4CpJmVteHutKVjTt7ZCj6_fHiA2pWFUx6t68w=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            </div>
+                            <div class="video-details">
+                                <div class="video-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quia inventore blanditi</div>
+                                <div class="channel-desc">
+                                    <div class="channel-name">White Tybur</div>
+                                    <div class="video-time-details">
+                                        30k views . 15 hours ago
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-card">
+                      <div class="video-thumbnail" style="background-image: url(https://i.ytimg.com/vi/tf7IEVTDjng/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC34dqkGLF3VwFvOC9isQDox8vIYg)">
+                      </div>
+                      <div class="card-description">
+                          <div class="channel-icon">
+                              <img src="https://yt3.ggpht.com/qxTWYGqUTd3GCjPHHRyTU8lKKnXMhv3D0LFpF4CpJmVteHutKVjTt7ZCj6_fHiA2pWFUx6t68w=s68-c-k-c0x00ffffff-no-rj" alt="">
+                          </div>
+                          <div class="video-details">
+                              <div class="video-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quia inventore blanditi</div>
+                              <div class="channel-desc">
+                                  <div class="channel-name">White Tybur</div>
+                                  <div class="video-time-details">
+                                      30k views . 15 hours ago
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                    <div class="video-card">
+                        <div class="video-thumbnail" style="background-image: url(https://i.ytimg.com/vi/LlhmzVL5bm8/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLATDS6etKlWWzGaHWhYHmgYBhGcbQ)">
+                        </div>
+                        <div class="card-description">
+                            <div class="channel-icon">
+                                <img src="https://yt3.ggpht.com/qxTWYGqUTd3GCjPHHRyTU8lKKnXMhv3D0LFpF4CpJmVteHutKVjTt7ZCj6_fHiA2pWFUx6t68w=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            </div>
+                            <div class="video-details">
+                                <div class="video-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quia inventore blanditi</div>
+                                <div class="channel-desc">
+                                    <div class="channel-name">White Tybur</div>
+                                    <div class="video-time-details">
+                                        30k views . 15 hours ago
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
             </div>
         </div>
       </section>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>

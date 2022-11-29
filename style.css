@@ -3,6 +3,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 :root{
     --ytRed:#FF0000;
     --ytDark: #171717;
@@ -18,13 +21,17 @@ body{
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 10px 30px;
+    padding: 0px 30px;
 }
 .nav-sec{
     width: 100%;
-    height:50px;
+    height:75px;
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    background-color: var(--ytDark);
+    z-index: 8;
 }
 .nav-item{
     display: flex;
@@ -35,7 +42,7 @@ body{
     ;
 }
 .yt-logo-sec img{
-    height: 35px;
+    height: 100px;
     margin-left: 20px;
 }
 .yt-logo-sec i{
@@ -63,6 +70,8 @@ body{
     border: none;
     outline: none;
     padding-left: 20px;
+    color: white;
+    font-size: 1.2rem;
 }
 .srch-box input::placeholder{
     color: grey;
@@ -109,13 +118,15 @@ body{
 }
 .body-container{
     flex: 85%;
-    background-color: white;
+    padding-top: 20px;
 }
 .side-bar-conatiner{
     display: flex;
     flex-direction: column;
     width: 200px;
     padding-top: 20px;
+    position: sticky;
+    top: 75px;
 }
 .side-bar-item{
     height: 50px;
@@ -141,4 +152,67 @@ body{
     background-color: var(--ytGrey);
     height: 1px;
     margin: 10px 0px;
+}
+.home-menu{
+    display: flex;
+}
+.home-menu-item{
+    margin-right: 20px;
+    background-color: var(--ytGrey);
+    height: 35px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.videos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.videos-card-row{
+    max-width: 100%;
+    display: flex;
+    gap: 17px;
+    flex-wrap: nowrap;
+    margin-top: 30px;
+}
+.video-card{
+    max-width: 25%;
+    overflow: hidden;
+}
+.video-thumbnail{
+    border-radius: 15px;
+    overflow: hidden;
+    height: 200px;
+    background-size: cover;
+}
+.card-description{
+    display: flex;
+    padding-top: 15px;
+    
+}
+.video-details{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+    gap: 15px;
+}
+.channel-icon{
+}
+.channel-icon img{
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+}
+.video-description{
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.channel-desc div{
+    color: rgb(149, 149, 149);
+    font-size: .9rem;
 }
